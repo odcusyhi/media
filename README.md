@@ -1,0 +1,2 @@
+# media
+Static media assets
