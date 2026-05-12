@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+  <rect width="1200" height="520" fill="#FFFFFF" rx="12"/>
+
+  <!-- Title -->
+  <text x="600" y="46" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#1A1A2E">5 Gründe warum digitale Transformation scheitert</text>
+
+  <!-- CARD 1: Technologie zuerst — purple border, white fill -->
+  <rect x="55" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
+  <circle cx="154" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="154" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <!-- Monitor/screen icon -->
+  <rect x="126" y="108" width="56" height="42" rx="4" fill="none" stroke="#590DA0" stroke-width="2.5"/>
+  <line x1="126" y1="140" x2="182" y2="140" stroke="#590DA0" stroke-width="2"/>
+  <rect x="142" y="150" width="24" height="6" rx="2" fill="none" stroke="#590DA0" stroke-width="2"/>
+  <line x1="147" y1="156" x2="161" y2="162" stroke="#590DA0" stroke-width="2"/>
+  <line x1="141" y1="162" x2="167" y2="162" stroke="#590DA0" stroke-width="2"/>
+  <!-- X on screen -->
+  <line x1="137" y1="117" x2="171" y2="137" stroke="#590DA0" stroke-width="2.5"/>
+  <line x1="171" y1="117" x2="137" y2="137" stroke="#590DA0" stroke-width="2.5"/>
+  <text x="154" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Technologie</text>
+  <text x="154" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">zuerst</text>
+  <text x="154" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Tools kaufen, bevor</text>
+  <text x="154" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">das Problem klar</text>
+  <text x="154" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">definiert ist.</text>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="258" y1="201" x2="270" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="270,194 270,208 284,201" fill="#1A1A2E"/>
+
+  <!-- CARD 2: Change Management vergessen — teal border, white fill -->
+  <rect x="278" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
+  <circle cx="377" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="377" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <!-- Book / document with X icon -->
+  <rect x="353" y="107" width="48" height="62" rx="4" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <line x1="353" y1="122" x2="401" y2="122" stroke="#61D2CE" stroke-width="2"/>
+  <line x1="362" y1="133" x2="392" y2="133" stroke="#61D2CE" stroke-width="1.5"/>
+  <line x1="362" y1="143" x2="392" y2="143" stroke="#61D2CE" stroke-width="1.5"/>
+  <line x1="362" y1="153" x2="380" y2="153" stroke="#61D2CE" stroke-width="1.5"/>
+  <!-- Pin/bookmark at top -->
+  <rect x="371" y="100" width="12" height="14" rx="2" fill="#61D2CE"/>
+  <text x="377" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Change Management</text>
+  <text x="377" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">vergessen</text>
+  <text x="377" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Ein Passwort-E-Mail</text>
+  <text x="377" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">reicht nicht. Menschen</text>
+  <text x="377" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">brauchen Begleitung.</text>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="481" y1="201" x2="493" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="493,194 493,208 507,201" fill="#1A1A2E"/>
+
+  <!-- CARD 3: Diffuse Ziele — purple border, white fill -->
+  <rect x="501" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
+  <circle cx="600" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="600" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <!-- Target with question mark (diffuse/fuzzy goal) -->
+  <circle cx="600" cy="138" r="30" fill="none" stroke="#590DA0" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="600" cy="138" r="20" fill="none" stroke="#590DA0" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="600" cy="138" r="10" fill="none" stroke="#590DA0" stroke-width="2"/>
+  <text x="600" y="143" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#590DA0">?</text>
+  <text x="600" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Diffuse</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Ziele</text>
+  <text x="600" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">"Digitaler werden"</text>
+  <text x="600" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">ist keine messbare</text>
+  <text x="600" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Zielvorgabe.</text>
+
+  <!-- Arrow 3 to 4 -->
+  <line x1="704" y1="201" x2="716" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="716,194 716,208 730,201" fill="#1A1A2E"/>
+
+  <!-- CARD 4: Silos überall — teal border, white fill -->
+  <rect x="724" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
+  <circle cx="823" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="823" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <!-- Two separated boxes (silos) with wall between -->
+  <rect x="783" y="112" width="34" height="52" rx="4" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <rect x="829" y="112" width="34" height="52" rx="4" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <!-- IT label -->
+  <text x="800" y="131" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="9" font-weight="700" fill="#61D2CE">IT</text>
+  <text x="800" y="143" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="8" fill="#61D2CE">Abt.</text>
+  <!-- Business label -->
+  <text x="846" y="131" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="9" font-weight="700" fill="#61D2CE">BIZ</text>
+  <text x="846" y="143" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="8" fill="#61D2CE">Abt.</text>
+  <!-- Wall/barrier line between the boxes -->
+  <line x1="817" y1="104" x2="817" y2="172" stroke="#61D2CE" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="823" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Silos</text>
+  <text x="823" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">überall</text>
+  <text x="823" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">IT und Business</text>
+  <text x="823" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">arbeiten in getrennten</text>
+  <text x="823" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Welten.</text>
+
+  <!-- Arrow 4 to 5 -->
+  <line x1="927" y1="201" x2="939" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="939,194 939,208 953,201" fill="#1A1A2E"/>
+
+  <!-- CARD 5: Unrealistische Timelines — solid teal fill -->
+  <rect x="947" y="72" width="198" height="258" rx="14" fill="#61D2CE"/>
+  <circle cx="1046" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="1046" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+  <!-- Hourglass icon -->
+  <path d="M1026 108 L1066 108 L1046 138 L1066 168 L1026 168 L1046 138 Z" fill="none" stroke="#1A1A2E" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="1026" y1="108" x2="1066" y2="108" stroke="#1A1A2E" stroke-width="2.5"/>
+  <line x1="1026" y1="168" x2="1066" y2="168" stroke="#1A1A2E" stroke-width="2.5"/>
+  <!-- Sand at bottom (partially filled) -->
+  <path d="M1035 162 Q1046 156 1057 162 L1057 168 L1035 168 Z" fill="#1A1A2E" fill-opacity="0.35"/>
+  <!-- Crack/X mark on top half -->
+  <line x1="1038" y1="118" x2="1054" y2="130" stroke="#1A1A2E" stroke-width="2"/>
+  <line x1="1054" y1="118" x2="1038" y2="130" stroke="#1A1A2E" stroke-width="2"/>
+  <text x="1046" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Unrealistische</text>
+  <text x="1046" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Timelines</text>
+  <text x="1046" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">"6 Monate komplett</text>
+  <text x="1046" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">transformiert" endet</text>
+  <text x="1046" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">in Frustration.</text>
+
+  <!-- Handwritten annotation with arrow pointing to Card 1 -->
+  <path d="M 195 395 Q 160 375 130 358 Q 112 349 98 346" stroke="#590DA0" stroke-width="2" fill="none"/>
+  <polygon points="92,341 103,349 95,357" fill="#590DA0"/>
+  <text x="205" y="395" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">Tritt am häufigsten auf:</text>
+  <text x="205" y="416" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">die Lösung kommt vor dem Problem</text>
+
+  <!-- Footer -->
+  <text x="600" y="506" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#9A9AB0">odcus.com</text>
+</svg>
