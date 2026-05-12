@@ -1,115 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
-  <rect width="1200" height="520" fill="#FFFFFF" rx="12"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#61D2CE"/>
+      <stop offset="55%" stop-color="#8719E1"/>
+      <stop offset="100%" stop-color="#590DA0"/>
+    </linearGradient>
+    <filter id="cs" x="-6%" y="-6%" width="112%" height="118%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#1A1A2E" flood-opacity="0.09"/>
+    </filter>
+    <clipPath id="c1"><rect x="86" y="84" width="188" height="300" rx="12"/></clipPath>
+    <clipPath id="c2"><rect x="296" y="84" width="188" height="300" rx="12"/></clipPath>
+    <clipPath id="c3"><rect x="506" y="84" width="188" height="300" rx="12"/></clipPath>
+    <clipPath id="c4"><rect x="716" y="84" width="188" height="300" rx="12"/></clipPath>
+    <clipPath id="c5"><rect x="926" y="84" width="188" height="300" rx="12"/></clipPath>
+  </defs>
 
-  <!-- Title -->
-  <text x="600" y="46" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#1A1A2E">5 Gründe, warum KI-Projekte scheitern</text>
+  <rect width="1200" height="630" fill="#F8F7FF" rx="12"/>
+  <text x="600" y="50" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#1A1A2E">5 Gründe, warum KI-Projekte scheitern</text>
+  <rect x="0" y="64" width="1200" height="6" fill="url(#hdr)"/>
 
-  <!-- CARD 1: Hype statt Strategie — purple border, white fill -->
-  <rect x="55" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
-  <circle cx="154" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="154" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
-  <!-- Lightning bolt icon -->
-  <polygon points="163,107 143,142 156,142 141,169 174,130 160,130 175,107" fill="none" stroke="#590DA0" stroke-width="2.5" stroke-linejoin="round"/>
-  <text x="154" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Hype</text>
-  <text x="154" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">statt Strategie</text>
-  <text x="154" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Investitionen ohne</text>
-  <text x="154" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">klares Ziel enden</text>
-  <text x="154" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">im leeren Lauf.</text>
+  <!-- CARD 1: Hype statt Strategie — purple -->
+  <rect x="86" y="84" width="188" height="300" rx="12" fill="#F9F5FF" stroke="#590DA0" stroke-width="1.5" filter="url(#cs)"/>
+  <rect x="86" y="84" width="188" height="52" fill="#590DA0" clip-path="url(#c1)"/>
+  <circle cx="180" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="180" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <!-- Lightning bolt with fill -->
+  <polygon points="190,149 166,185 180,185 163,215 202,172 186,172 203,149" fill="#EDE2FF" stroke="#590DA0" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="106" y1="228" x2="254" y2="228" stroke="#590DA0" stroke-width="0.75" stroke-opacity="0.30"/>
+  <text x="180" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Hype</text>
+  <text x="180" y="267" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">statt Strategie</text>
+  <text x="180" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">Investitionen ohne</text>
+  <text x="180" y="308" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">klares Ziel enden</text>
+  <text x="180" y="323" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">im leeren Lauf.</text>
 
-  <!-- Arrow 1 to 2 -->
-  <line x1="258" y1="201" x2="270" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="270,194 270,208 284,201" fill="#1A1A2E"/>
+  <!-- Arrow 1→2 -->
+  <line x1="278" y1="236" x2="289" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="289,229 289,243 303,236" fill="#1A1A2E"/>
 
-  <!-- CARD 2: Schlechte Datenbasis — teal border, white fill -->
-  <rect x="278" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
-  <circle cx="377" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="377" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
-  <!-- Database stack icon -->
-  <ellipse cx="377" cy="113" rx="24" ry="8" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
-  <line x1="353" y1="113" x2="353" y2="133" stroke="#61D2CE" stroke-width="2.5"/>
-  <line x1="401" y1="113" x2="401" y2="133" stroke="#61D2CE" stroke-width="2.5"/>
-  <ellipse cx="377" cy="133" rx="24" ry="8" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
-  <line x1="353" y1="133" x2="353" y2="153" stroke="#61D2CE" stroke-width="2.5"/>
-  <line x1="401" y1="133" x2="401" y2="153" stroke="#61D2CE" stroke-width="2.5"/>
-  <ellipse cx="377" cy="153" rx="24" ry="8" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
-  <!-- Warning X across middle tier -->
-  <line x1="362" y1="127" x2="392" y2="143" stroke="#61D2CE" stroke-width="2"/>
-  <line x1="392" y1="127" x2="362" y2="143" stroke="#61D2CE" stroke-width="2"/>
-  <text x="377" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Schlechte</text>
-  <text x="377" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Datenbasis</text>
-  <text x="377" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Daten im System ist</text>
-  <text x="377" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">nicht gleich Daten</text>
-  <text x="377" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">für ML bereit.</text>
+  <!-- CARD 2: Schlechte Datenbasis — teal -->
+  <rect x="296" y="84" width="188" height="300" rx="12" fill="#EDFAFA" stroke="#61D2CE" stroke-width="1.5" filter="url(#cs)"/>
+  <rect x="296" y="84" width="188" height="52" fill="#3DB5B1" clip-path="url(#c2)"/>
+  <circle cx="390" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="390" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <!-- Database with filled cylinders + X -->
+  <ellipse cx="390" cy="155" rx="28" ry="9" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="362" y1="155" x2="362" y2="178" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="418" y1="155" x2="418" y2="178" stroke="#3DB5B1" stroke-width="2"/>
+  <ellipse cx="390" cy="178" rx="28" ry="9" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="362" y1="178" x2="362" y2="201" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="418" y1="178" x2="418" y2="201" stroke="#3DB5B1" stroke-width="2"/>
+  <ellipse cx="390" cy="201" rx="28" ry="9" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="368" y1="163" x2="412" y2="180" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="412" y1="163" x2="368" y2="180" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="316" y1="228" x2="464" y2="228" stroke="#61D2CE" stroke-width="0.75" stroke-opacity="0.45"/>
+  <text x="390" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Schlechte</text>
+  <text x="390" y="267" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Datenbasis</text>
+  <text x="390" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">Daten im System ist</text>
+  <text x="390" y="308" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">nicht gleich Daten</text>
+  <text x="390" y="323" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">für ML bereit.</text>
 
-  <!-- Arrow 2 to 3 -->
-  <line x1="481" y1="201" x2="493" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="493,194 493,208 507,201" fill="#1A1A2E"/>
+  <!-- Arrow 2→3 -->
+  <line x1="488" y1="236" x2="499" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="499,229 499,243 513,236" fill="#1A1A2E"/>
 
-  <!-- CARD 3: Keine Business Ownership — purple border, white fill -->
-  <rect x="501" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
-  <circle cx="600" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="600" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
-  <!-- Org chart icon: top node + two children -->
-  <rect x="588" y="107" width="24" height="16" rx="3" fill="none" stroke="#590DA0" stroke-width="2.5"/>
-  <line x1="600" y1="123" x2="600" y2="135" stroke="#590DA0" stroke-width="2"/>
-  <line x1="572" y1="135" x2="628" y2="135" stroke="#590DA0" stroke-width="2"/>
-  <line x1="572" y1="135" x2="572" y2="143" stroke="#590DA0" stroke-width="2"/>
-  <line x1="628" y1="135" x2="628" y2="143" stroke="#590DA0" stroke-width="2"/>
-  <rect x="560" y="143" width="24" height="16" rx="3" fill="none" stroke="#590DA0" stroke-width="2.5"/>
-  <rect x="616" y="143" width="24" height="16" rx="3" fill="#590DA0" fill-opacity="0.15" stroke="#590DA0" stroke-width="2.5" stroke-dasharray="4,2"/>
-  <text x="628" y="154" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#590DA0">?</text>
-  <text x="600" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Keine Business</text>
-  <text x="600" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Ownership</text>
-  <text x="600" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">IT baut, Business</text>
-  <text x="600" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">nutzt nicht. Wer</text>
-  <text x="600" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">entscheidet hier?</text>
+  <!-- CARD 3: Keine Business Ownership — purple -->
+  <rect x="506" y="84" width="188" height="300" rx="12" fill="#F9F5FF" stroke="#590DA0" stroke-width="1.5" filter="url(#cs)"/>
+  <rect x="506" y="84" width="188" height="52" fill="#590DA0" clip-path="url(#c3)"/>
+  <circle cx="600" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="600" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <!-- Org chart with ? node -->
+  <rect x="584" y="149" width="32" height="20" rx="3" fill="#EDE2FF" stroke="#590DA0" stroke-width="2"/>
+  <line x1="600" y1="169" x2="600" y2="182" stroke="#590DA0" stroke-width="2"/>
+  <line x1="568" y1="182" x2="632" y2="182" stroke="#590DA0" stroke-width="2"/>
+  <line x1="568" y1="182" x2="568" y2="192" stroke="#590DA0" stroke-width="2"/>
+  <line x1="632" y1="182" x2="632" y2="192" stroke="#590DA0" stroke-width="2"/>
+  <rect x="552" y="192" width="32" height="20" rx="3" fill="#EDE2FF" stroke="#590DA0" stroke-width="2"/>
+  <rect x="616" y="192" width="32" height="20" rx="3" fill="#EDE2FF" stroke="#590DA0" stroke-width="2" stroke-dasharray="5,3" fill-opacity="0.6"/>
+  <text x="632" y="206" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#590DA0">?</text>
+  <line x1="526" y1="228" x2="674" y2="228" stroke="#590DA0" stroke-width="0.75" stroke-opacity="0.30"/>
+  <text x="600" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Keine Business</text>
+  <text x="600" y="267" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Ownership</text>
+  <text x="600" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">IT baut, Business</text>
+  <text x="600" y="308" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">nutzt nicht. Wer</text>
+  <text x="600" y="323" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">entscheidet hier?</text>
 
-  <!-- Arrow 3 to 4 -->
-  <line x1="704" y1="201" x2="716" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="716,194 716,208 730,201" fill="#1A1A2E"/>
+  <!-- Arrow 3→4 -->
+  <line x1="698" y1="236" x2="709" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="709,229 709,243 723,236" fill="#1A1A2E"/>
 
-  <!-- CARD 4: Change Management fehlt — teal border, white fill -->
-  <rect x="724" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
-  <circle cx="823" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="823" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
-  <!-- Gear icon: circle + inner circle + 4 rectangular teeth -->
-  <circle cx="823" cy="138" r="18" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
-  <circle cx="823" cy="138" r="7" fill="none" stroke="#61D2CE" stroke-width="2"/>
-  <rect x="820" y="107" width="6" height="13" rx="2" fill="#61D2CE"/>
-  <rect x="820" y="156" width="6" height="13" rx="2" fill="#61D2CE"/>
-  <rect x="792" y="135" width="13" height="6" rx="2" fill="#61D2CE"/>
-  <rect x="841" y="135" width="13" height="6" rx="2" fill="#61D2CE"/>
-  <text x="823" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Change</text>
-  <text x="823" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Management fehlt</text>
-  <text x="823" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Gute Modelle nutzen</text>
-  <text x="823" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">nichts, wenn niemand</text>
-  <text x="823" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">sie bedienen will.</text>
+  <!-- CARD 4: Change Management fehlt — teal -->
+  <rect x="716" y="84" width="188" height="300" rx="12" fill="#EDFAFA" stroke="#61D2CE" stroke-width="1.5" filter="url(#cs)"/>
+  <rect x="716" y="84" width="188" height="52" fill="#3DB5B1" clip-path="url(#c4)"/>
+  <circle cx="810" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="810" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <!-- Gear with fill -->
+  <circle cx="810" cy="172" r="26" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2.5"/>
+  <circle cx="810" cy="172" r="10" fill="#EDFAFA" stroke="#3DB5B1" stroke-width="2"/>
+  <rect x="807" y="143" width="6" height="13" rx="2" fill="#3DB5B1"/>
+  <rect x="807" y="188" width="6" height="13" rx="2" fill="#3DB5B1"/>
+  <rect x="776" y="169" width="13" height="6" rx="2" fill="#3DB5B1"/>
+  <rect x="821" y="169" width="13" height="6" rx="2" fill="#3DB5B1"/>
+  <line x1="736" y1="228" x2="884" y2="228" stroke="#61D2CE" stroke-width="0.75" stroke-opacity="0.45"/>
+  <text x="810" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Change</text>
+  <text x="810" y="267" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">Management fehlt</text>
+  <text x="810" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">Gute Modelle nutzen</text>
+  <text x="810" y="308" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">nichts, wenn niemand</text>
+  <text x="810" y="323" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#4A4A6A">sie bedienen will.</text>
 
-  <!-- Arrow 4 to 5 -->
-  <line x1="927" y1="201" x2="939" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="939,194 939,208 953,201" fill="#1A1A2E"/>
+  <!-- Arrow 4→5 -->
+  <line x1="908" y1="236" x2="919" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="919,229 919,243 933,236" fill="#1A1A2E"/>
 
   <!-- CARD 5: ROI nicht definiert — solid teal fill -->
-  <rect x="947" y="72" width="198" height="258" rx="14" fill="#61D2CE"/>
-  <circle cx="1046" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="1046" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
-  <!-- Chart frame with question mark -->
-  <rect x="1022" y="108" width="48" height="44" rx="4" fill="none" stroke="#1A1A2E" stroke-width="2.5"/>
-  <line x1="1022" y1="152" x2="1070" y2="152" stroke="#1A1A2E" stroke-width="1.5"/>
-  <line x1="1026" y1="152" x2="1026" y2="108" stroke="#1A1A2E" stroke-width="1.5"/>
-  <text x="1046" y="139" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#1A1A2E">?</text>
-  <text x="1046" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">ROI nicht</text>
-  <text x="1046" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">definiert</text>
-  <text x="1046" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Ohne klare Metriken</text>
-  <text x="1046" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">bleibt die Frage:</text>
-  <text x="1046" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Hat es was gebracht?</text>
+  <rect x="926" y="84" width="188" height="300" rx="12" fill="#61D2CE" filter="url(#cs)"/>
+  <rect x="926" y="84" width="188" height="52" fill="#3DB5B1" clip-path="url(#c5)"/>
+  <circle cx="1020" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="1020" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+  <!-- Chart frame with large ? -->
+  <rect x="988" y="149" width="64" height="54" rx="4" fill="rgba(255,255,255,0.35)" stroke="#1A1A2E" stroke-width="2.5"/>
+  <line x1="988" y1="203" x2="1052" y2="203" stroke="#1A1A2E" stroke-width="1.5"/>
+  <line x1="992" y1="203" x2="992" y2="149" stroke="#1A1A2E" stroke-width="1.5"/>
+  <text x="1020" y="186" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#1A1A2E">?</text>
+  <line x1="946" y1="228" x2="1094" y2="228" stroke="#1A5A5A" stroke-width="0.75" stroke-opacity="0.40"/>
+  <text x="1020" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">ROI nicht</text>
+  <text x="1020" y="267" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="13.5" font-weight="700" fill="#1A1A2E">definiert</text>
+  <text x="1020" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#1A5A5A">Ohne klare Metriken</text>
+  <text x="1020" y="308" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#1A5A5A">bleibt die Frage:</text>
+  <text x="1020" y="323" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#1A5A5A">Hat es was gebracht?</text>
 
-  <!-- Handwritten annotation with arrow pointing to Card 1 -->
-  <path d="M 195 395 Q 160 375 130 358 Q 112 349 98 346" stroke="#590DA0" stroke-width="2" fill="none"/>
-  <polygon points="92,341 103,349 95,357" fill="#590DA0"/>
-  <text x="205" y="395" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">Meist beginnt es hier:</text>
-  <text x="205" y="416" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">falscher Startpunkt, falsche Frage</text>
+  <!-- Annotation -->
+  <path d="M 218 440 Q 185 420 158 405 Q 138 394 122 387" stroke="#590DA0" stroke-width="2" fill="none"/>
+  <polygon points="116,381 127,388 118,396" fill="#590DA0"/>
+  <text x="228" y="440" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">Meist beginnt es hier:</text>
+  <text x="228" y="461" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">falscher Startpunkt, falsche Frage</text>
 
-  <!-- Footer -->
-  <text x="600" y="506" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#9A9AB0">odcus.com</text>
+  <text x="600" y="618" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#9A9AB0">odcus.com</text>
 </svg>
