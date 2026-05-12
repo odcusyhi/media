@@ -1,107 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
-  <rect width="1200" height="520" fill="#FFFFFF" rx="12"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Brand gradient for accent bar: teal → violet → purple -->
+    <linearGradient id="hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#61D2CE"/>
+      <stop offset="55%" stop-color="#8719E1"/>
+      <stop offset="100%" stop-color="#590DA0"/>
+    </linearGradient>
+    <!-- Card drop shadow -->
+    <filter id="cs" x="-6%" y="-6%" width="112%" height="118%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#1A1A2E" flood-opacity="0.09"/>
+    </filter>
+    <!-- Clip paths to round only top corners of header band -->
+    <clipPath id="c1"><rect x="75" y="84" width="240" height="300" rx="12"/></clipPath>
+    <clipPath id="c2"><rect x="345" y="84" width="240" height="300" rx="12"/></clipPath>
+    <clipPath id="c3"><rect x="615" y="84" width="240" height="300" rx="12"/></clipPath>
+    <clipPath id="c4"><rect x="885" y="84" width="240" height="300" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F8F7FF" rx="12"/>
 
   <!-- Title -->
-  <text x="600" y="46" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#1A1A2E">4 Fehler, die BC-Pläne im Ernstfall wertlos machen</text>
+  <text x="600" y="50" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#1A1A2E">4 Fehler, die BC-Pläne im Ernstfall wertlos machen</text>
 
-  <!-- CARD 1: Plan liegt ungelesen — purple border -->
-  <!-- Using wider cards for 4-card layout: width ~252px, spacing ~24px -->
-  <!-- 4 cards: x=55, x=331, x=607, x=883 | each 252px wide | center: 181, 457, 733, 1009 -->
-  <rect x="55" y="72" width="252" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
-  <circle cx="181" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="181" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
-  <!-- Folder/document sleeping icon: document with Zzz -->
-  <rect x="155" y="107" width="52" height="62" rx="4" fill="none" stroke="#590DA0" stroke-width="2.5"/>
-  <path d="M 155 121 L 165 107 L 207 107" fill="none" stroke="#590DA0" stroke-width="2.5"/>
-  <line x1="164" y1="135" x2="198" y2="135" stroke="#590DA0" stroke-width="1.5"/>
-  <line x1="164" y1="147" x2="198" y2="147" stroke="#590DA0" stroke-width="1.5"/>
-  <line x1="164" y1="159" x2="185" y2="159" stroke="#590DA0" stroke-width="1.5"/>
-  <!-- Zzz text -->
-  <text x="204" y="120" font-family="Inter,Arial,Helvetica,sans-serif" font-size="10" font-weight="700" fill="#590DA0">z</text>
-  <text x="210" y="113" font-family="Inter,Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#590DA0">z</text>
-  <text x="217" y="106" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#590DA0">Z</text>
-  <text x="181" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Plan liegt ungelesen</text>
-  <text x="181" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">im SharePoint</text>
-  <text x="181" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Einmal erstellt, abgeheftet,</text>
-  <text x="181" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">vergessen. Niemand kennt</text>
-  <text x="181" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">ihn, wenn es zählt.</text>
+  <!-- Brand gradient accent bar -->
+  <rect x="0" y="64" width="1200" height="6" fill="url(#hdr)"/>
 
-  <!-- Arrow 1 to 2 -->
-  <line x1="312" y1="201" x2="322" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="322,194 322,208 336,201" fill="#1A1A2E"/>
+  <!-- ═══════════════════════════════════════════════
+       CARD 1: Plan liegt ungelesen im SharePoint
+       ═══════════════════════════════════════════════ -->
+  <!-- Card base with tinted fill and shadow -->
+  <rect x="75" y="84" width="240" height="300" rx="12" fill="#F9F5FF" stroke="#590DA0" stroke-width="1.5" filter="url(#cs)"/>
+  <!-- Header band (purple) -->
+  <rect x="75" y="84" width="240" height="52" fill="#590DA0" clip-path="url(#c1)"/>
+  <!-- Number badge -->
+  <circle cx="195" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="195" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
 
-  <!-- CARD 2: IT-Fokus statt Business-Fokus — teal border -->
-  <rect x="331" y="72" width="252" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
-  <circle cx="457" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="457" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
-  <!-- Server vs store icon: server stack on left, simple building on right, X between -->
-  <rect x="427" y="108" width="30" height="12" rx="2" fill="none" stroke="#61D2CE" stroke-width="2"/>
-  <rect x="427" y="124" width="30" height="12" rx="2" fill="none" stroke="#61D2CE" stroke-width="2"/>
-  <rect x="427" y="140" width="30" height="12" rx="2" fill="none" stroke="#61D2CE" stroke-width="2"/>
-  <circle cx="435" cy="114" r="2" fill="#61D2CE"/>
-  <circle cx="435" cy="130" r="2" fill="#61D2CE"/>
-  <circle cx="435" cy="146" r="2" fill="#61D2CE"/>
-  <!-- Arrow right with X -->
-  <line x1="460" y1="133" x2="475" y2="133" stroke="#61D2CE" stroke-width="2"/>
-  <text x="458" y="137" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#61D2CE">&#8800;</text>
-  <!-- Euro/customer icon -->
-  <rect x="469" y="109" width="28" height="22" rx="2" fill="none" stroke="#61D2CE" stroke-width="2"/>
-  <line x1="463" y1="131" x2="503" y2="131" stroke="#61D2CE" stroke-width="1.5"/>
-  <line x1="483" y1="131" x2="483" y2="155" stroke="#61D2CE" stroke-width="1.5"/>
-  <text x="457" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">IT-Fokus statt</text>
-  <text x="457" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Business-Fokus</text>
-  <text x="457" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">RTO löst kein</text>
-  <text x="457" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Kundenproblem.</text>
-  <text x="457" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Prozesse schon.</text>
+  <!-- Document + Zzz icon -->
+  <rect x="162" y="152" width="48" height="56" rx="4" fill="#EDE2FF" stroke="#590DA0" stroke-width="2.5"/>
+  <path d="M 162 166 L 172 152 L 210 152" fill="none" stroke="#590DA0" stroke-width="2.5"/>
+  <line x1="171" y1="178" x2="202" y2="178" stroke="#590DA0" stroke-width="1.5"/>
+  <line x1="171" y1="189" x2="202" y2="189" stroke="#590DA0" stroke-width="1.5"/>
+  <line x1="171" y1="200" x2="189" y2="200" stroke="#590DA0" stroke-width="1.5"/>
+  <text x="210" y="162" font-family="Inter,Arial,Helvetica,sans-serif" font-size="10" font-weight="700" fill="#590DA0">z</text>
+  <text x="218" y="153" font-family="Inter,Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#590DA0">z</text>
+  <text x="226" y="144" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#590DA0">Z</text>
 
-  <!-- Arrow 2 to 3 -->
-  <line x1="588" y1="201" x2="598" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="598,194 598,208 612,201" fill="#1A1A2E"/>
+  <!-- Divider -->
+  <line x1="95" y1="228" x2="295" y2="228" stroke="#590DA0" stroke-width="0.75" stroke-opacity="0.30"/>
 
-  <!-- CARD 3: Backups werden nie getestet — purple border -->
-  <rect x="607" y="72" width="252" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
-  <circle cx="733" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="733" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
-  <!-- Cloud with X / broken backup icon -->
-  <path d="M 718 140 Q 707 140 707 130 Q 707 120 718 120 Q 720 112 730 112 Q 742 112 744 122 Q 752 120 754 128 Q 756 140 745 140 Z" fill="none" stroke="#590DA0" stroke-width="2.5"/>
-  <!-- X through the cloud -->
-  <line x1="712" y1="120" x2="750" y2="140" stroke="#590DA0" stroke-width="2.5"/>
-  <line x1="750" y1="120" x2="712" y2="140" stroke="#590DA0" stroke-width="2.5"/>
-  <text x="733" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Backups werden</text>
-  <text x="733" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">nie getestet</text>
-  <text x="733" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Im Ernstfall stellt sich</text>
-  <text x="733" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">heraus: nicht wieder-</text>
-  <text x="733" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">herstellbar.</text>
+  <text x="195" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Plan liegt ungelesen</text>
+  <text x="195" y="268" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">im SharePoint</text>
+  <text x="195" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Einmal erstellt, abgeheftet,</text>
+  <text x="195" y="309" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">vergessen. Niemand kennt</text>
+  <text x="195" y="325" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">ihn, wenn es zählt.</text>
 
-  <!-- Arrow 3 to 4 -->
-  <line x1="864" y1="201" x2="874" y2="201" stroke="#1A1A2E" stroke-width="3"/>
-  <polygon points="874,194 874,208 888,201" fill="#1A1A2E"/>
+  <!-- Arrow 1→2 -->
+  <line x1="319" y1="236" x2="338" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="338,229 338,243 352,236" fill="#1A1A2E"/>
 
-  <!-- CARD 4: Pläne veralten — solid teal fill -->
-  <rect x="883" y="72" width="252" height="258" rx="14" fill="#61D2CE"/>
-  <circle cx="1009" cy="85" r="18" fill="#1A1A2E"/>
-  <text x="1009" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
-  <!-- Calendar with X / clock going backward -->
-  <rect x="981" y="108" width="56" height="52" rx="4" fill="none" stroke="#1A1A2E" stroke-width="2.5"/>
-  <line x1="981" y1="120" x2="1037" y2="120" stroke="#1A1A2E" stroke-width="2"/>
-  <line x1="993" y1="102" x2="993" y2="116" stroke="#1A1A2E" stroke-width="2.5"/>
-  <line x1="1025" y1="102" x2="1025" y2="116" stroke="#1A1A2E" stroke-width="2.5"/>
-  <!-- "3 years ago" indication with X -->
-  <text x="990" y="137" font-family="Inter,Arial,Helvetica,sans-serif" font-size="9" fill="#1A1A2E" font-weight="700">2022</text>
-  <line x1="985" y1="143" x2="1033" y2="155" stroke="#1A1A2E" stroke-width="2.5"/>
-  <line x1="1033" y1="143" x2="985" y2="155" stroke="#1A1A2E" stroke-width="2.5"/>
-  <text x="1009" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Pläne veralten</text>
-  <text x="1009" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">zu schnell</text>
-  <text x="1009" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Cloud-Migrationen,</text>
-  <text x="1009" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">neue Lieferanten, neue</text>
-  <text x="1009" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Teams. Plan: unverändert.</text>
+  <!-- ═══════════════════════════════════════════════
+       CARD 2: IT-Fokus statt Business-Fokus
+       ═══════════════════════════════════════════════ -->
+  <rect x="345" y="84" width="240" height="300" rx="12" fill="#EDFAFA" stroke="#61D2CE" stroke-width="1.5" filter="url(#cs)"/>
+  <rect x="345" y="84" width="240" height="52" fill="#3DB5B1" clip-path="url(#c2)"/>
+  <circle cx="465" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="465" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
 
-  <!-- Handwritten annotation with arrow pointing to Card 1 -->
-  <path d="M 230 390 Q 200 370 170 355 Q 148 342 120 336" stroke="#590DA0" stroke-width="2" fill="none"/>
-  <polygon points="114,330 125,338 117,346" fill="#590DA0"/>
-  <text x="240" y="390" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">Hier beginnt das Problem:</text>
-  <text x="240" y="411" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">der Plan, den niemand kennt</text>
+  <!-- Server stack icon -->
+  <rect x="422" y="153" width="34" height="13" rx="3" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <rect x="422" y="170" width="34" height="13" rx="3" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <rect x="422" y="187" width="34" height="13" rx="3" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <circle cx="429" cy="159.5" r="3" fill="#3DB5B1"/>
+  <circle cx="429" cy="176.5" r="3" fill="#3DB5B1"/>
+  <circle cx="429" cy="193.5" r="3" fill="#3DB5B1"/>
+  <!-- ≠ symbol -->
+  <text x="461" y="180" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#3DB5B1">≠</text>
+  <!-- Store/building -->
+  <rect x="476" y="160" width="26" height="21" rx="2" fill="#D0F5F4" stroke="#3DB5B1" stroke-width="2"/>
+  <line x1="469" y1="181" x2="508" y2="181" stroke="#3DB5B1" stroke-width="1.5"/>
+  <line x1="489" y1="181" x2="489" y2="204" stroke="#3DB5B1" stroke-width="1.5"/>
+
+  <line x1="365" y1="228" x2="565" y2="228" stroke="#61D2CE" stroke-width="0.75" stroke-opacity="0.45"/>
+
+  <text x="465" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">IT-Fokus statt</text>
+  <text x="465" y="268" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Business-Fokus</text>
+  <text x="465" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">RTO löst kein</text>
+  <text x="465" y="309" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Kundenproblem.</text>
+  <text x="465" y="325" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Prozesse schon.</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="589" y1="236" x2="608" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="608,229 608,243 622,236" fill="#1A1A2E"/>
+
+  <!-- ═══════════════════════════════════════════════
+       CARD 3: Backups werden nie getestet
+       ═══════════════════════════════════════════════ -->
+  <rect x="615" y="84" width="240" height="300" rx="12" fill="#F9F5FF" stroke="#590DA0" stroke-width="1.5" filter="url(#cs)"/>
+  <rect x="615" y="84" width="240" height="52" fill="#590DA0" clip-path="url(#c3)"/>
+  <circle cx="735" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="735" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+
+  <!-- Cloud with X icon (broken backup) -->
+  <path d="M 720 172 Q 708 172 708 162 Q 708 151 720 151 Q 722 142 733 142 Q 745 142 747 152 Q 756 150 757 159 Q 759 172 748 172 Z" fill="#EDE2FF" stroke="#590DA0" stroke-width="2.5"/>
+  <line x1="712" y1="149" x2="753" y2="172" stroke="#590DA0" stroke-width="2.5"/>
+  <line x1="753" y1="149" x2="712" y2="172" stroke="#590DA0" stroke-width="2.5"/>
+  <!-- Lock-open hint below -->
+  <rect x="724" y="181" width="22" height="16" rx="3" fill="#EDE2FF" stroke="#590DA0" stroke-width="1.5"/>
+  <path d="M 726 181 Q 726 172 735 172 Q 744 172 744 181" fill="none" stroke="#590DA0" stroke-width="1.5"/>
+
+  <line x1="635" y1="228" x2="835" y2="228" stroke="#590DA0" stroke-width="0.75" stroke-opacity="0.30"/>
+
+  <text x="735" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Backups werden</text>
+  <text x="735" y="268" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">nie getestet</text>
+  <text x="735" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Im Ernstfall stellt sich</text>
+  <text x="735" y="309" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">heraus: nicht wieder-</text>
+  <text x="735" y="325" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">herstellbar.</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="859" y1="236" x2="878" y2="236" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="878,229 878,243 892,236" fill="#1A1A2E"/>
+
+  <!-- ═══════════════════════════════════════════════
+       CARD 4: Pläne veralten zu schnell (featured, solid teal fill)
+       ═══════════════════════════════════════════════ -->
+  <rect x="885" y="84" width="240" height="300" rx="12" fill="#61D2CE" filter="url(#cs)"/>
+  <!-- Slightly darker header band for the solid teal card -->
+  <rect x="885" y="84" width="240" height="52" fill="#3DB5B1" clip-path="url(#c4)"/>
+  <circle cx="1005" cy="110" r="20" fill="#1A1A2E"/>
+  <text x="1005" y="117" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+
+  <!-- Calendar with X / outdated icon -->
+  <rect x="978" y="143" width="54" height="50" rx="4" fill="rgba(255,255,255,0.4)" stroke="#1A1A2E" stroke-width="2.5"/>
+  <line x1="978" y1="156" x2="1032" y2="156" stroke="#1A1A2E" stroke-width="2"/>
+  <line x1="992" y1="137" x2="992" y2="152" stroke="#1A1A2E" stroke-width="2.5"/>
+  <line x1="1018" y1="137" x2="1018" y2="152" stroke="#1A1A2E" stroke-width="2.5"/>
+  <text x="993" y="172" font-family="Inter,Arial,Helvetica,sans-serif" font-size="9" fill="#1A1A2E" font-weight="700">2022</text>
+  <!-- X over old date -->
+  <line x1="984" y1="178" x2="1028" y2="190" stroke="#1A1A2E" stroke-width="2.5"/>
+  <line x1="1028" y1="178" x2="984" y2="190" stroke="#1A1A2E" stroke-width="2.5"/>
+
+  <line x1="905" y1="228" x2="1105" y2="228" stroke="#1A5A5A" stroke-width="0.75" stroke-opacity="0.40"/>
+
+  <text x="1005" y="251" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Pläne veralten</text>
+  <text x="1005" y="268" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">zu schnell</text>
+  <text x="1005" y="293" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Cloud-Migrationen,</text>
+  <text x="1005" y="309" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">neue Lieferanten, neue</text>
+  <text x="1005" y="325" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Teams. Plan: unverändert.</text>
+
+  <!-- Handwritten annotation with curved arrow pointing to Card 1 -->
+  <path d="M 248 440 Q 218 420 178 406 Q 152 395 132 388" stroke="#590DA0" stroke-width="2" fill="none"/>
+  <polygon points="126,382 137,389 128,397" fill="#590DA0"/>
+  <text x="258" y="440" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">Hier beginnt das Problem:</text>
+  <text x="258" y="461" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">der Plan, den niemand kennt</text>
 
   <!-- Footer -->
-  <text x="600" y="506" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#9A9AB0">odcus.com</text>
+  <text x="600" y="618" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#9A9AB0">odcus.com</text>
 </svg>
