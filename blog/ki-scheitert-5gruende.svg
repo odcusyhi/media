@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+  <rect width="1200" height="520" fill="#FFFFFF" rx="12"/>
+
+  <!-- Title -->
+  <text x="600" y="46" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#1A1A2E">5 Gründe, warum KI-Projekte scheitern</text>
+
+  <!-- CARD 1: Hype statt Strategie — purple border, white fill -->
+  <rect x="55" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
+  <circle cx="154" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="154" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+  <!-- Lightning bolt icon -->
+  <polygon points="163,107 143,142 156,142 141,169 174,130 160,130 175,107" fill="none" stroke="#590DA0" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="154" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Hype</text>
+  <text x="154" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">statt Strategie</text>
+  <text x="154" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Investitionen ohne</text>
+  <text x="154" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">klares Ziel enden</text>
+  <text x="154" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">im leeren Lauf.</text>
+
+  <!-- Arrow 1 to 2 -->
+  <line x1="258" y1="201" x2="270" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="270,194 270,208 284,201" fill="#1A1A2E"/>
+
+  <!-- CARD 2: Schlechte Datenbasis — teal border, white fill -->
+  <rect x="278" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
+  <circle cx="377" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="377" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+  <!-- Database stack icon -->
+  <ellipse cx="377" cy="113" rx="24" ry="8" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <line x1="353" y1="113" x2="353" y2="133" stroke="#61D2CE" stroke-width="2.5"/>
+  <line x1="401" y1="113" x2="401" y2="133" stroke="#61D2CE" stroke-width="2.5"/>
+  <ellipse cx="377" cy="133" rx="24" ry="8" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <line x1="353" y1="133" x2="353" y2="153" stroke="#61D2CE" stroke-width="2.5"/>
+  <line x1="401" y1="133" x2="401" y2="153" stroke="#61D2CE" stroke-width="2.5"/>
+  <ellipse cx="377" cy="153" rx="24" ry="8" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <!-- Warning X across middle tier -->
+  <line x1="362" y1="127" x2="392" y2="143" stroke="#61D2CE" stroke-width="2"/>
+  <line x1="392" y1="127" x2="362" y2="143" stroke="#61D2CE" stroke-width="2"/>
+  <text x="377" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Schlechte</text>
+  <text x="377" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Datenbasis</text>
+  <text x="377" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Daten im System ist</text>
+  <text x="377" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">nicht gleich Daten</text>
+  <text x="377" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">für ML bereit.</text>
+
+  <!-- Arrow 2 to 3 -->
+  <line x1="481" y1="201" x2="493" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="493,194 493,208 507,201" fill="#1A1A2E"/>
+
+  <!-- CARD 3: Keine Business Ownership — purple border, white fill -->
+  <rect x="501" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#590DA0" stroke-width="4"/>
+  <circle cx="600" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="600" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+  <!-- Org chart icon: top node + two children -->
+  <rect x="588" y="107" width="24" height="16" rx="3" fill="none" stroke="#590DA0" stroke-width="2.5"/>
+  <line x1="600" y1="123" x2="600" y2="135" stroke="#590DA0" stroke-width="2"/>
+  <line x1="572" y1="135" x2="628" y2="135" stroke="#590DA0" stroke-width="2"/>
+  <line x1="572" y1="135" x2="572" y2="143" stroke="#590DA0" stroke-width="2"/>
+  <line x1="628" y1="135" x2="628" y2="143" stroke="#590DA0" stroke-width="2"/>
+  <rect x="560" y="143" width="24" height="16" rx="3" fill="none" stroke="#590DA0" stroke-width="2.5"/>
+  <rect x="616" y="143" width="24" height="16" rx="3" fill="#590DA0" fill-opacity="0.15" stroke="#590DA0" stroke-width="2.5" stroke-dasharray="4,2"/>
+  <text x="628" y="154" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" font-weight="700" fill="#590DA0">?</text>
+  <text x="600" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Keine Business</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Ownership</text>
+  <text x="600" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">IT baut, Business</text>
+  <text x="600" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">nutzt nicht. Wer</text>
+  <text x="600" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">entscheidet hier?</text>
+
+  <!-- Arrow 3 to 4 -->
+  <line x1="704" y1="201" x2="716" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="716,194 716,208 730,201" fill="#1A1A2E"/>
+
+  <!-- CARD 4: Change Management fehlt — teal border, white fill -->
+  <rect x="724" y="72" width="198" height="258" rx="14" fill="#FFFFFF" stroke="#61D2CE" stroke-width="4"/>
+  <circle cx="823" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="823" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+  <!-- Gear icon: circle + inner circle + 4 rectangular teeth -->
+  <circle cx="823" cy="138" r="18" fill="none" stroke="#61D2CE" stroke-width="2.5"/>
+  <circle cx="823" cy="138" r="7" fill="none" stroke="#61D2CE" stroke-width="2"/>
+  <rect x="820" y="107" width="6" height="13" rx="2" fill="#61D2CE"/>
+  <rect x="820" y="156" width="6" height="13" rx="2" fill="#61D2CE"/>
+  <rect x="792" y="135" width="13" height="6" rx="2" fill="#61D2CE"/>
+  <rect x="841" y="135" width="13" height="6" rx="2" fill="#61D2CE"/>
+  <text x="823" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Change</text>
+  <text x="823" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">Management fehlt</text>
+  <text x="823" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">Gute Modelle nutzen</text>
+  <text x="823" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">nichts, wenn niemand</text>
+  <text x="823" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#4A4A6A">sie bedienen will.</text>
+
+  <!-- Arrow 4 to 5 -->
+  <line x1="927" y1="201" x2="939" y2="201" stroke="#1A1A2E" stroke-width="3"/>
+  <polygon points="939,194 939,208 953,201" fill="#1A1A2E"/>
+
+  <!-- CARD 5: ROI nicht definiert — solid teal fill -->
+  <rect x="947" y="72" width="198" height="258" rx="14" fill="#61D2CE"/>
+  <circle cx="1046" cy="85" r="18" fill="#1A1A2E"/>
+  <text x="1046" y="92" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+  <!-- Chart frame with question mark -->
+  <rect x="1022" y="108" width="48" height="44" rx="4" fill="none" stroke="#1A1A2E" stroke-width="2.5"/>
+  <line x1="1022" y1="152" x2="1070" y2="152" stroke="#1A1A2E" stroke-width="1.5"/>
+  <line x1="1026" y1="152" x2="1026" y2="108" stroke="#1A1A2E" stroke-width="1.5"/>
+  <text x="1046" y="139" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#1A1A2E">?</text>
+  <text x="1046" y="202" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">ROI nicht</text>
+  <text x="1046" y="220" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#1A1A2E">definiert</text>
+  <text x="1046" y="246" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Ohne klare Metriken</text>
+  <text x="1046" y="262" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">bleibt die Frage:</text>
+  <text x="1046" y="278" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11.5" fill="#1A5A5A">Hat es was gebracht?</text>
+
+  <!-- Handwritten annotation with arrow pointing to Card 1 -->
+  <path d="M 195 395 Q 160 375 130 358 Q 112 349 98 346" stroke="#590DA0" stroke-width="2" fill="none"/>
+  <polygon points="92,341 103,349 95,357" fill="#590DA0"/>
+  <text x="205" y="395" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">Meist beginnt es hier:</text>
+  <text x="205" y="416" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-style="italic" fill="#590DA0">falscher Startpunkt, falsche Frage</text>
+
+  <!-- Footer -->
+  <text x="600" y="506" text-anchor="middle" font-family="Inter,Arial,Helvetica,sans-serif" font-size="11" fill="#9A9AB0">odcus.com</text>
+</svg>
